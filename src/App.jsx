@@ -7,7 +7,7 @@ import CountryDetails from "./pages/CountryDetails";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/Country-Flags-Explorer/">
         <Routes>
           <Route path="/" element={<CountryList />} />
           <Route path="/country/:name" element={<CountryDetails />} />
