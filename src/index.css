@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    color: red;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.card img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+.card {
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: 20px;
+    width: fit-content;
+    box-shadow: 2px 2px rgb(196, 193, 193);
+}
